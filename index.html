@@ -3,61 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Obinna' portfolio</title>
+
+    <style>
+        body {
+           font-family: Arial, Helvetica, sans-serif;
+           background-color: #f4f4f4; 
+           color: #333;
+           line-height: 1.6;
+           margin: 0;
+           padding: 0;
+        }
+        header {
+            background-color: darkolivegreen;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 10px;
+         }
+         footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+            color: #777;
+         }
+
+         nav {
+            background-color: rgb(66, 169, 158);
+            text-align: center;
+            padding: 10px 0;
+         }
+         nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+         }
+         nav ul li {
+            display: inline;
+            margin: 0 15px
+         }
+         nav ul li a {
+            color: white;
+            font-weight: bold;
+         }
+         nav ul li a:hover {
+            text-decoration: underline;
+         }
+
+         .profile-pic {
+            display: block;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: none;
+         }
+
+         @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            .profile-pic {
+                width: 100px;
+                max-width: 150px;
+                height: auto;
+            }
+            main {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+         }
+    </style>
+        
 
 </head>
 
-    <h1>My Resume</h1>
-    <h2>OBJECTIVE</h2>
-    <hr />
-    <p>Motivated and detail-oriented graduate of Electrical and Electronics Engineering from the Federal University of Technology Owerri, Imo state Nigeria. With practical experience broadcast engineering and a strong academic background in power systems, electronics, and control. Seeking a position in a reputable organization where I can contribute to impactful projects and develop professionally.</p>
-    <hr />
+<body>
+    
+    <header>
+       <h1>Obinna M Friday</h1>
+       <p>Aspiring Full-Stack Web Developer</p>
+    </header>
 
-    <h2>EDUCATION</h2>
-    <ul>
-        <li>DEGREE</li>
-           <P>Bachelor of Engineering (B.ENG), Electrical and Electronics Engineering</P>
-           <li>SCHOOL</li>
-           <p>Federal University of Technology Owerri Imo state</p>
-           <li>GRADUATION YEAR</li>
-           <P>2021</P>
-    </ul>
-    <h2>PROJECT EXPERIENCE</h2>
-
-    <p>Final Year Project<p>
-
-    <ul>
-        <li>Designed and implemented a Smart Home Automation System</li>
-        <li>Developed a funtional home automation system using Arduino</li>
-        <li>Integrated sensors for motion detection and appliance control</li>
-    </ul>
-
-    <h2>TECHNICAL SKILLS </h2>
-    <ul>
-        <li>Circuit Design and Analysis</li>
-       <li>Electrical power </li>
-        <li>AutoCAD Electrical, Matlab/Simulink</li>
-        <li>Microcontroller Programming (Arduiono, PIC)</li>
-        <li>Electrical Maintenance and Safty</li> 
-    </ul>
-
-    <h2>TRAINING & CERTIFICATION</h2>
-    <ul>
-        <li>National Youth Service Corps (NYSC)</li>
-        <P>Nigeria Army, 34 Artillery Brigade Headquarters, Signal Unit</P>
-        <p>2021-2022</p>
-        <li>Industrial Training</li>
-        <p>Broadcasting Corporation of Abia State</p>
-        <p>2017-2018</p>
-    </ul>
-    <img src="./IMG_20241020_114721 (1).jpg" alt="my profile photo" width="200">
     <nav>
-        <a href="hobbies.html">My Hobbies</a>
-        <a href="contact.html">Contact Me</a>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Pictures/profile2.jpg" alt="Obinna Michael Friday" class="profile-pic">
+        <p>I am Obinna Michael Friday, a graduate of Electrical and Electronics Engineering from the Federal University of Technology, Owerri. I'm currently learning full-stack web development with a focus on HTML, CSS, and JavaScript. My passion lies in building clean, user-friendly websites and exploring how technology can solve real-world problems.</p>
+        <p>With a strong foundation in engineering principles and a growing skill set in web development, I'm committed to continuous learning and excited about launching my career as a developer.</p>
+    </section>
 
+    <section id="skills">
+        <h2>Skills & Education</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>FUTO, Nigeria</li>
+        </ul>
+    </section>
 
-    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Coming Soon...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: obinnafriday2131@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&#169; Obinna Michael Friday. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
